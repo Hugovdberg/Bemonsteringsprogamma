@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bemonsteringsprogramma"
+version = "0.1.0"
+description = ""
+authors = ["Hugo Lapré <hugo@tbdwebdesign.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+hypothesis = "^5.23.3"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
